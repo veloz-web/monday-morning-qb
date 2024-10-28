@@ -54,4 +54,25 @@ const App = () => {
   );
 };
 
-export default App;
+const styles = {
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  title: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  item: {
+    padding: 10,
+    marginVertical: 8,
+    marginHorizontal: 16,
+    borderWidth: 1,
+    borderColor: '#ddd',
+  },
+};
+
+export default
